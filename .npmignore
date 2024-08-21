@@ -1,0 +1,50 @@
+# Exclude source files
+src
+src/*
+
+# Include compiled code
+!lib
+!lib/*
+
+# Ignore tests
+__tests__
+__tests__/*
+
+# Exclude GitHub workflows
+.github
+.github/*
+
+# Exclude Husky configuration
+.husky
+.husky/*
+
+# Ignore IDE config files
+.vscode
+.vscode/*
+
+# Exclude distribution files and directories
+dist
+dist/*
+lib
+lib/*
+
+# Exclude environment file and Git ignore files
+.env
+.gitignore
+.gitattributes
+
+# Ignore images used for tests
+images
+images/*
+
+# Exclude configuration files and development-related files
+CONFIGURATION.md
+fra.traineddata
+jest.config.js
+.prettierrc
+.releaserc
+commitlint.config.js
+eslint.config.js
+package-lock.json
+
+# Include any additional files or directories to be excluded here

@@ -1,0 +1,35 @@
+# Trained data
+*.traineddata
+
+# Node modules
+node_modules
+node_modules/*
+
+# Build output
+lib
+lib/*
+
+# Environment files
+.env
+
+# IDE config files
+.vscode
+.vscode/*
+
+# Test artifacts
+__tests__/adHoc.ts
+
+# Package lock
+package-lock.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other files
+*.log
+*.tmp
+
+# Exclut tout dans dist sauf les fichiers .tgz
+dist/*
+!dist/*.tgz
